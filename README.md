@@ -25,4 +25,11 @@ ByteCortex is an Abstractive Text Summarizer designed to summarize articles, web
 - Flask
 - Beautiful Soup v4.0 or above
   
-[![Demo Video](http://img.youtube.com/vi/pU-SXB1o6S0/0.jpg)](https://youtu.be/pU-SXB1o6S0)
+## Project Workflow
+
+![Alt text](https://raw.githubusercontent.com/YourUsername/YourRepository/main/ByteCortex/uml2.png)
+  
+## Demo
+
+[![Demo Video](http://img.youtube.com/vi/pU-SXB1o6S0/maxresdefault.jpg)](https://youtu.be/pU-SXB1o6S0)
+
