@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Text Summarization Web Application">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Text Summarizer</h1>
+        <label class="paste_label">Paste URL of the article below</label>
+        <form action="#" method="POST">
+            <input type="url" name="url" autocomplete="off" placeholder="https://en.wikipedia.org/wiki/Internet">
+            <button type="submit" class="summarize_btn">Summarize</button>
+        </form>
+        <div class="summary_section">
+            <h2 class="summary_label">Summary</h2>
+            <div class="article_info">
+                <h3 class="article_title">{{ article_title }}</h3>
+                <p class="reading_time">{{ reading_time }}</p>
+            </div>
+            <textarea readonly>{{ summary }}</textarea>
+        </div>
+    </div>
+</body>
+</html>
